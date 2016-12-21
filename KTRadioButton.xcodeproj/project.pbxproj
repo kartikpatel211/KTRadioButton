@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		666C47C21E0A5B7000CF0709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47C11E0A5B7000CF0709 /* AppDelegate.swift */; };
+		666C47C41E0A5B7000CF0709 /* RadioButtonExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47C31E0A5B7000CF0709 /* RadioButtonExampleViewController.swift */; };
+		666C47C71E0A5B7000CF0709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C47C51E0A5B7000CF0709 /* Main.storyboard */; };
+		666C47C91E0A5B7000CF0709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666C47C81E0A5B7000CF0709 /* Assets.xcassets */; };
+		666C47CC1E0A5B7000CF0709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C47CA1E0A5B7000CF0709 /* LaunchScreen.storyboard */; };
+		666C47D71E0A5B7000CF0709 /* KTRadioButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47D61E0A5B7000CF0709 /* KTRadioButtonTests.swift */; };
+		666C47E21E0A5B7100CF0709 /* KTRadioButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47E11E0A5B7100CF0709 /* KTRadioButtonUITests.swift */; };
+		666C47F01E0A5C3300CF0709 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47EF1E0A5C3300CF0709 /* RadioButton.swift */; };
+		666C47F21E0A667700CF0709 /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47F11E0A667700CF0709 /* RadioButtonGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		666C47D31E0A5B7000CF0709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666C47B61E0A5B7000CF0709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666C47BD1E0A5B7000CF0709;
+			remoteInfo = KTRadioButton;
+		};
+		666C47DE1E0A5B7000CF0709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666C47B61E0A5B7000CF0709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666C47BD1E0A5B7000CF0709;
+			remoteInfo = KTRadioButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		666C47BE1E0A5B7000CF0709 /* KTRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C47C11E0A5B7000CF0709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		666C47C31E0A5B7000CF0709 /* RadioButtonExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonExampleViewController.swift; sourceTree = "<group>"; };
+		666C47C61E0A5B7000CF0709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		666C47C81E0A5B7000CF0709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666C47CB1E0A5B7000CF0709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		666C47CD1E0A5B7000CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C47D21E0A5B7000CF0709 /* KTRadioButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTRadioButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C47D61E0A5B7000CF0709 /* KTRadioButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTRadioButtonTests.swift; sourceTree = "<group>"; };
+		666C47D81E0A5B7000CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C47DD1E0A5B7000CF0709 /* KTRadioButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTRadioButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C47E11E0A5B7100CF0709 /* KTRadioButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTRadioButtonUITests.swift; sourceTree = "<group>"; };
+		666C47E31E0A5B7100CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C47EF1E0A5C3300CF0709 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		666C47F11E0A667700CF0709 /* RadioButtonGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666C47BB1E0A5B7000CF0709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C47CF1E0A5B7000CF0709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C47DA1E0A5B7000CF0709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666C47B51E0A5B7000CF0709 = {
+			isa = PBXGroup;
+			children = (
+				666C47C01E0A5B7000CF0709 /* KTRadioButton */,
+				666C47D51E0A5B7000CF0709 /* KTRadioButtonTests */,
+				666C47E01E0A5B7100CF0709 /* KTRadioButtonUITests */,
+				666C47BF1E0A5B7000CF0709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		666C47BF1E0A5B7000CF0709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666C47BE1E0A5B7000CF0709 /* KTRadioButton.app */,
+				666C47D21E0A5B7000CF0709 /* KTRadioButtonTests.xctest */,
+				666C47DD1E0A5B7000CF0709 /* KTRadioButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666C47C01E0A5B7000CF0709 /* KTRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				666C47C11E0A5B7000CF0709 /* AppDelegate.swift */,
+				666C47C31E0A5B7000CF0709 /* RadioButtonExampleViewController.swift */,
+				666C47F11E0A667700CF0709 /* RadioButtonGroup.swift */,
+				666C47EF1E0A5C3300CF0709 /* RadioButton.swift */,
+				666C47C51E0A5B7000CF0709 /* Main.storyboard */,
+				666C47C81E0A5B7000CF0709 /* Assets.xcassets */,
+				666C47CA1E0A5B7000CF0709 /* LaunchScreen.storyboard */,
+				666C47CD1E0A5B7000CF0709 /* Info.plist */,
+			);
+			path = KTRadioButton;
+			sourceTree = "<group>";
+		};
+		666C47D51E0A5B7000CF0709 /* KTRadioButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				666C47D61E0A5B7000CF0709 /* KTRadioButtonTests.swift */,
+				666C47D81E0A5B7000CF0709 /* Info.plist */,
+			);
+			path = KTRadioButtonTests;
+			sourceTree = "<group>";
+		};
+		666C47E01E0A5B7100CF0709 /* KTRadioButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				666C47E11E0A5B7100CF0709 /* KTRadioButtonUITests.swift */,
+				666C47E31E0A5B7100CF0709 /* Info.plist */,
+			);
+			path = KTRadioButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		666C47BD1E0A5B7000CF0709 /* KTRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666C47E61E0A5B7100CF0709 /* Build configuration list for PBXNativeTarget "KTRadioButton" */;
+			buildPhases = (
+				666C47BA1E0A5B7000CF0709 /* Sources */,
+				666C47BB1E0A5B7000CF0709 /* Frameworks */,
+				666C47BC1E0A5B7000CF0709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTRadioButton;
+			productName = KTRadioButton;
+			productReference = 666C47BE1E0A5B7000CF0709 /* KTRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		666C47D11E0A5B7000CF0709 /* KTRadioButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666C47E91E0A5B7100CF0709 /* Build configuration list for PBXNativeTarget "KTRadioButtonTests" */;
+			buildPhases = (
+				666C47CE1E0A5B7000CF0709 /* Sources */,
+				666C47CF1E0A5B7000CF0709 /* Frameworks */,
+				666C47D01E0A5B7000CF0709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666C47D41E0A5B7000CF0709 /* PBXTargetDependency */,
+			);
+			name = KTRadioButtonTests;
+			productName = KTRadioButtonTests;
+			productReference = 666C47D21E0A5B7000CF0709 /* KTRadioButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		666C47DC1E0A5B7000CF0709 /* KTRadioButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666C47EC1E0A5B7100CF0709 /* Build configuration list for PBXNativeTarget "KTRadioButtonUITests" */;
+			buildPhases = (
+				666C47D91E0A5B7000CF0709 /* Sources */,
+				666C47DA1E0A5B7000CF0709 /* Frameworks */,
+				666C47DB1E0A5B7000CF0709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666C47DF1E0A5B7000CF0709 /* PBXTargetDependency */,
+			);
+			name = KTRadioButtonUITests;
+			productName = KTRadioButtonUITests;
+			productReference = 666C47DD1E0A5B7000CF0709 /* KTRadioButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		666C47B61E0A5B7000CF0709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kartik Patel";
+				TargetAttributes = {
+					666C47BD1E0A5B7000CF0709 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KP9ST78F2Z;
+						ProvisioningStyle = Automatic;
+					};
+					666C47D11E0A5B7000CF0709 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KP9ST78F2Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 666C47BD1E0A5B7000CF0709;
+					};
+					666C47DC1E0A5B7000CF0709 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KP9ST78F2Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 666C47BD1E0A5B7000CF0709;
+					};
+				};
+			};
+			buildConfigurationList = 666C47B91E0A5B7000CF0709 /* Build configuration list for PBXProject "KTRadioButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 666C47B51E0A5B7000CF0709;
+			productRefGroup = 666C47BF1E0A5B7000CF0709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				666C47BD1E0A5B7000CF0709 /* KTRadioButton */,
+				666C47D11E0A5B7000CF0709 /* KTRadioButtonTests */,
+				666C47DC1E0A5B7000CF0709 /* KTRadioButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		666C47BC1E0A5B7000CF0709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666C47CC1E0A5B7000CF0709 /* LaunchScreen.storyboard in Resources */,
+				666C47C91E0A5B7000CF0709 /* Assets.xcassets in Resources */,
+				666C47C71E0A5B7000CF0709 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C47D01E0A5B7000CF0709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C47DB1E0A5B7000CF0709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		666C47BA1E0A5B7000CF0709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666C47F01E0A5C3300CF0709 /* RadioButton.swift in Sources */,
+				666C47F21E0A667700CF0709 /* RadioButtonGroup.swift in Sources */,
+				666C47C41E0A5B7000CF0709 /* RadioButtonExampleViewController.swift in Sources */,
+				666C47C21E0A5B7000CF0709 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C47CE1E0A5B7000CF0709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666C47D71E0A5B7000CF0709 /* KTRadioButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C47D91E0A5B7000CF0709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666C47E21E0A5B7100CF0709 /* KTRadioButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666C47D41E0A5B7000CF0709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666C47BD1E0A5B7000CF0709 /* KTRadioButton */;
+			targetProxy = 666C47D31E0A5B7000CF0709 /* PBXContainerItemProxy */;
+		};
+		666C47DF1E0A5B7000CF0709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666C47BD1E0A5B7000CF0709 /* KTRadioButton */;
+			targetProxy = 666C47DE1E0A5B7000CF0709 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		666C47C51E0A5B7000CF0709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666C47C61E0A5B7000CF0709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		666C47CA1E0A5B7000CF0709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666C47CB1E0A5B7000CF0709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		666C47E41E0A5B7100CF0709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666C47E51E0A5B7100CF0709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		666C47E71E0A5B7100CF0709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTRadioButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		666C47E81E0A5B7100CF0709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTRadioButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		666C47EA1E0A5B7100CF0709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTRadioButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTRadioButton.app/KTRadioButton";
+			};
+			name = Debug;
+		};
+		666C47EB1E0A5B7100CF0709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTRadioButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTRadioButton.app/KTRadioButton";
+			};
+			name = Release;
+		};
+		666C47ED1E0A5B7100CF0709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KTRadioButton;
+			};
+			name = Debug;
+		};
+		666C47EE1E0A5B7100CF0709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KTRadioButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		666C47B91E0A5B7000CF0709 /* Build configuration list for PBXProject "KTRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C47E41E0A5B7100CF0709 /* Debug */,
+				666C47E51E0A5B7100CF0709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666C47E61E0A5B7100CF0709 /* Build configuration list for PBXNativeTarget "KTRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C47E71E0A5B7100CF0709 /* Debug */,
+				666C47E81E0A5B7100CF0709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		666C47E91E0A5B7100CF0709 /* Build configuration list for PBXNativeTarget "KTRadioButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C47EA1E0A5B7100CF0709 /* Debug */,
+				666C47EB1E0A5B7100CF0709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		666C47EC1E0A5B7100CF0709 /* Build configuration list for PBXNativeTarget "KTRadioButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C47ED1E0A5B7100CF0709 /* Debug */,
+				666C47EE1E0A5B7100CF0709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 666C47B61E0A5B7000CF0709 /* Project object */;
+}
